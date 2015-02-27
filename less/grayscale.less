@@ -95,15 +95,6 @@ a {
                     background-color: transparent;
                 }
             }
-            &.active {
-                outline: none;
-                a {
-                    background-color: fade(white, 30%);
-                    &:hover {
-                        color: white;
-                    }
-                }
-            }
         }
     }
     @media(min-width:768px) {
@@ -114,11 +105,6 @@ a {
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
-        &.top-nav-collapse {
-            padding: 0;
-            background: black;
-            border-bottom: 1px solid fade(white, 30%);
-        }
     }
 }
 
